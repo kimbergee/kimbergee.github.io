@@ -1,0 +1,15 @@
+---
+title: Ruby API Gem
+subtitle: A Ruby Gem API client to access and use the Bloc API.
+layout: default
+modal-id: 2
+date: 2016-07-30
+img: kele-rubyc.png
+thumbnail: kele-rubyc-thumbnail.png
+alt: image-alt
+project-date: July 2016
+description: Kele is a Ruby Gem API client that allows authorized users to access the Bloc API. Students can get their user and enrollment info, check their mentor’s availability, see their course roadmaps, and even submit their assignments through the command line. This Gem also offers the ability to read, send, and receive messages. All data is parsed and neatly formatted into JSON for easy readability.
+tools: HTTParty, JSON, cURL
+github: https://github.com/kimbergee/kele
+
+---

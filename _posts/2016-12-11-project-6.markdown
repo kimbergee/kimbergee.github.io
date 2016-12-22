@@ -1,0 +1,16 @@
+---
+title: Arete Studio
+subtitle: Improve design & layout from Drupal theme.
+layout: default
+modal-id: 6
+date: 2016-11-16
+img: arete.png
+thumbnail: arete-thumbnail.png
+alt: image-alt
+project-date: December 2016
+description: This client asked for some layout/design changes on their website galleries, which was built and managed with Drupal.
+tools: Javascript, HTML/CSS, Drupal
+github:
+site: https://arete-studio.com
+
+---

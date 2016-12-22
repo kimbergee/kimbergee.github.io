@@ -1,0 +1,15 @@
+---
+title: PomoTime
+subtitle: A simple time management system based on the Pomodoro technique.
+layout: default
+modal-id: 5
+date: 2016-10-12
+img: pomotime.png
+thumbnail: pomotime-thumbnail.png
+alt: image-alt
+project-date: October 2016
+description: PomoTime is a single-page application that offers a work and break timer to help users work efficiently. Based on the Pomodoro technique, a user can start/reset a 25 minute work session. Only after a full work session has been completed, will the timer for a 5 minute break display. After 4 completed work sessions, a longer 30 minute break timer will display for the user. Users can also record the tasks they have been working on by adding them to the "Completed Tasks" list on the left.
+tools: Firebase for auto syncing backend storage, UI-Router, Buzz Library for alert sounds, HTML/CSS, Grunt, NodeJS
+github: https://github.com/kimbergee/pomotime
+
+---

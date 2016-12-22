@@ -1,0 +1,15 @@
+---
+title: Chatto
+subtitle: A simple real-time chat application.
+layout: default
+modal-id: 7
+date: 2016-12-15
+img: chatto.png
+thumbnail: chatto-thumbnail.png
+alt: image-alt
+project-date: December 2016
+description: Chatto is a single-page application that allows users to chat in real-time with each other in various chat rooms. The application first prompts a user to enter a username via a modal and then saves it to the browser with cookies. Once a username is set, the user can easily click to enter any rooms that they want to chat in, or create a new room.
+tools: Firebase for real time room creation and sending messages, UI Bootstrap's $uibModal service, cookies for setting & validating usernames, UI-Router, Grunt, NodeJS, HTML/CSS
+github: https://github.com/kimbergee/chatto
+
+---

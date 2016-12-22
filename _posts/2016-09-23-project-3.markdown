@@ -1,0 +1,15 @@
+---
+title: Kioku - Ruby on Rails
+subtitle: A self-destructing to-do list application that uses rake automation.
+layout: default
+modal-id: 3
+date: 2016-09-23
+img: kioku-ror.png
+thumbnail: kioku-ror-thumbnail.png
+alt: image-alt
+project-date: September 2016
+description: This version of Kioku is built from scratch with Ruby on Rails. It is a self-destructing to-do list. This utility application uses rake automation to remove to-do items that are over 7 days old. The logic is that if the task has not been completed in a week, it is not important enough to be on a to-do list. The intention is to motivate users to complete their tasks ASAP and keep their lists up-to-date and relevant.
+tools: jQuery, AJAX, HTML/CSS/SASS, Bootstrap, Devise library for user authentication, SQLite3 for development and PostgreSQL for production
+github: https://github.com/kimbergee/kioku-ror
+
+---

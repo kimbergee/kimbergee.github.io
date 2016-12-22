@@ -2,7 +2,7 @@
  {% for post in site.posts %}
     <div class="portfolio-modal modal fade" id="portfolioModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
+            <div class="close-modal" data-dismiss="modal" onclick="javascript:window.location='/#portfolio'">
                 <div class="lr">
                     <div class="rl">
                     </div>
@@ -17,20 +17,23 @@
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                             <p>{{ post.description }}</p>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
-                                    </strong>
+                                <li><div id="modal-bold">Tools & Skills:</div>
+                                  {{ post.tools }}
                                 </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
-                                    </strong>
+                                <br>
+                                {% if post.github %}
+                                <li><div id="modal-bold">Source Code:</div>
+                                  <a href="{{ post.github }}">Github</a>
                                 </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
-                                    </strong>
+                                {% else %}
+                                <li><div id="modal-bold">Client Site:</div>
+                                  <a href="{{ post.site }}">url</a>
                                 </li>
+                                {% endif %}
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <a href="#portfolio">
+                              <button type="button" class="btn btn-default" data-dismiss="modal" onclick="javascript:window.location='/#portfolio'"><i class="fa fa-times"></i> Close</button>
+                            </a>
                         </div>
                     </div>
                 </div>

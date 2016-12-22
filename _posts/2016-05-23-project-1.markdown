@@ -1,0 +1,15 @@
+---
+title: Wiki World
+subtitle: A SaaS app that allows users to create their own wikis. Built with RoR.
+layout: default
+modal-id: 1
+date: 2016-05-23
+img: wikiworld.png
+thumbnail: wikiworld-thumbnail.png
+alt: image-alt
+project-date: May 2016
+description: Wiki World a SaaS wiki collaboration tool. The app lets users create their own wikis and collab on other users' wikis. As a standard user, you can create and edit public wikis. A premium user can create private wikis and add collaborators. You can also just browse public wikis as a guest. Users can upgrade & downgrade easily and create/edit wikis using Markdown.
+tools: jQuery, Javascript, HTML/CSS/SASS, Bootstrap, Redcarpet for using Markdown, Stripe for credit card payments, Devise library for user authentication, Pundit library for authorizations, SQLite3 for development & PostgreSQL for production
+github: https://github.com/kimbergee/wikiworld
+
+---
