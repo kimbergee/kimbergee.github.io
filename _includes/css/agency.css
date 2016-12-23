@@ -15,7 +15,8 @@ body {
     font-weight: 300;
     font-size: 1.15em;
     line-height: 1.5;
-    #{{ site.data.template.color.muted }};
+    /*#{{ site.data.template.color.muted }};*/
+    color: #777;
 }
 
 .text-primary {
@@ -433,8 +434,8 @@ section h3.section-subheading {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    background: rgba(254,209,54,.9); /* Fallback when no plugin support */
-    background: rgba({{ site.data.template.color.primary | hex_to_rgb | join: ',' }}, .9);
+    background: rgba(239,136,127,.9); /* Fallback when no plugin support 
+    /*background: rgba({{ site.data.template.color.primary | hex_to_rgb | join: ',' }}, .9);*/
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
