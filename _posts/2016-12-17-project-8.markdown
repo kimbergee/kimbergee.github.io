@@ -11,6 +11,6 @@ project-date: December 2016
 description: This client asked for a full website redesign. Started with a base theme and customized it to the client's specifications.
 tools: Javascript, HTML/CSS
 github:
-site: https://stmassetmanagement.com
+site: http://stmassetmanagement.com
 
 ---

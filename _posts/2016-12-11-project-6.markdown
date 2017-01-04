@@ -11,6 +11,6 @@ project-date: December 2016
 description: This client asked for some layout/design changes on their website galleries, which was built and managed with Drupal.
 tools: Javascript, HTML/CSS, Drupal
 github:
-site: https://arete-studio.com
+site: http://arete-studio.com
 
 ---
