@@ -428,6 +428,7 @@ section h3.section-subheading {
     font-weight: 700;
     color: #666;
     font-size: .85em;
+    min-height: 2em;
 }
 
 .skill-li {
@@ -474,6 +475,7 @@ section h3.section-subheading {
 
     .service-heading {
         font-size: 1.25em;
+        min-height: 1em;
     }
 
     .skill-li {
