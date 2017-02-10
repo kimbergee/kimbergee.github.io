@@ -1,7 +1,7 @@
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: ef887f
-  secondary: e28178
+  primary: f29991
+  secondary: ef887f
   secondary-dark: 333
   muted: 777
 
@@ -9,3 +9,4 @@ color:
 font:
   primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
   secondary: '"Poiret One", cursive'
+  third: 'Raleway, sans-serif'

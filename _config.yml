@@ -9,14 +9,16 @@ description: "web developer"
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
+  - title: envelope-o
+    url: mailto:hello@kimbergee.com
   - title: github
     url: http://github.com/kimbergee
   - title: linkedin
     url: https://www.linkedin.com/in/kimbergee
   - title: twitter
     url: http://twitter.com/kimberzama
-  - title: facebook
-    url: http://facebook.com/kimbergee
+  - title: soundcloud
+    url: https://soundcloud.com/kimber-gee
   - title: instagram
     url: http://instagram.com/misskimbers
 
