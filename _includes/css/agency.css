@@ -321,8 +321,6 @@ header {
     color: #fff;
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/desk-coffee-light.jpg');
-    /*background-image: url('{{ site.baseurl }}/img/workspace-fromabovecamera.jpg');*/
-    /*background-image: url('{{ site.baseurl }}/img/outdoor-workspace-2375.jpg');*/
     background-position: center center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
