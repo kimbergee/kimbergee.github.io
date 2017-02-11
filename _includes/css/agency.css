@@ -320,7 +320,8 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/desk-coffee-light.jpg');
+    /*background-image: url('{{ site.baseurl }}/img/desk-coffee-light.jpg');*/
+    background-image: url('{{ site.baseurl }}/img/wspace-above1.JPG');
     background-position: center center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -569,6 +570,10 @@ section#about {
     max-width: 400px;
 }
 
+#portfolio .portfolio-item .portfolio-link:hover {
+    text-decoration: none;
+}
+
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
     position: absolute;
     width: 100%;
@@ -616,10 +621,10 @@ section#about {
 #portfolio .portfolio-item .portfolio-caption h4 {
     margin: 0;
     padding-bottom: .5em;
-    text-transform: none;
-    font-weight: 300;
-    color: #666;
-    letter-spacing: -1px;
+    font-family: {{ site.data.template.font.third }};
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #7A8ECC;
 }
 
 #portfolio .portfolio-item .portfolio-caption p {
@@ -655,10 +660,10 @@ section#about {
 
 .portfolio-modal .modal-content h2 {
     margin-bottom: 15px;
+    font-family: {{ site.data.template.font.third }};
     font-size: 1.85em;
-    color: #b1b1b1;
-    font-weight: 100;
-    letter-spacing: -.1em;
+    color: #7A8ECC;
+    font-weight: 200;
 }
 
 @media(min-width:480px) {
@@ -669,7 +674,7 @@ section#about {
 
 .portfolio-modal .modal-content p {
     margin-bottom: 30px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: {{ site.data.template.font.secondary }};
     font-size: 1.2em;
     font-weight: 200;
     line-height: 1.5;
@@ -685,12 +690,14 @@ section#about {
 .portfolio-modal .modal-content ul.list-inline {
     margin-top: 0;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .portfolio-modal .modal-content ul.list-inline li {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: {{ site.data.template.font.third }};
     font-size: 1em;
     font-weight: 200;
+    font-style: italic;
     padding-bottom: 1em;
 }
 
@@ -702,7 +709,8 @@ section#about {
 .modal-bold {
     font-weight: 400;
     text-transform: uppercase;
-    font-style: italic;
+    font-style: normal;
+    color: #7A8ECC;
 }
 
 .portfolio-modal .modal-content img {
@@ -741,6 +749,10 @@ section#about {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+.portfolio-modal .btn-default {
+    font-family: {{ site.data.template.font.third }};
 }
 
 
